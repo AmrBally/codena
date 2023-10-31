@@ -1,0 +1,36 @@
+.thirdLanding {
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+  background-image: url("../images/cards.png");
+  height: 600px;
+}
+
+.thirdLanding .first span {
+  color: #712fff;
+}
+.thirdLanding .first h1,
+.thirdLanding .first p,
+.thirdLanding .first Button {
+  margin-bottom: 30px;
+}
+
+.thirdLanding .first Button {
+  border-radius: 50px;
+}
+
+.thirdLanding img {
+  width: 100%;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .thirdLanding {
+    flex-direction: column;
+    background-image: none;
+  }
+  .thirdLanding img {
+    display: block;
+    margin: 20px;
+  }
+}
